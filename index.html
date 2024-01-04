@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,700&family=Roboto:wght@400;500;700;900&family=Sacramento&display=swap" rel="stylesheet">
+    <title>Homework-06</title>
+</head>
+<body>
+    <h1 class="heading">Web Development</h1>
+   
+<main>
+        <h2 class="heading2">Roadmap</h2>
+        <h3 class="heading3">Foundation</h3>
+        <ul class="points">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+        </ul>
+
+
+   <div class="framework">
+    <h2 class="heading2">Framework</h2>
+    <h3 class="heading3">CSS</h3>
+    <ul class="points">
+        <li>Bootstap</li>
+        <li>tailwind css</li>
+        <li>stylex</li>
+        <li>Bulma</li>
+    </ul>
+
+    <h3 class="heading3">JAVASCRIPT</h3>
+    <ul class="points">
+        <li>Express js</li>
+        <li>Next js</li>
+        <li>Svelte</li>
+    </ul>
+   </div>
+
+   <div class="libaries">
+    <h2 class="heading2">Popular Libaries</h2>
+    <ul class="points">
+        <li>React js</li>
+        <li>Vue js</li>
+        <li>jQuery</li>
+        <li>node js</li>
+    </ul>
+   </div>
+
+</main> 
+   <div class="personal">
+
+    <h2 class="heading2">Personal skill </h2>
+    <div class="progress">  
+     <div class="progress-name">
+         <div class="one">
+             <label class="points" for="html">HTML:</label>
+         </div>
+         <div class="one">
+             <label class="points" for="css">CSS:</label>
+         </div>
+         <div class="one">
+             <label class="points" for="javascript">JAVASCRIPT:</label>
+         </div>
+     </div>
+     <div class="status">
+         <div class="two">
+             <meter class="space" id="html" min="0" low="40" high="90" max="100" value="90"></meter>
+         </div>
+         <div class="two">
+             <meter class="space" id="css" min="0" low="40" high="90" max="100" value="70"></meter>
+         </div>
+         <div class="two">
+             <meter class="space" id="javascript" min="0" low="40" high="90" max="100" value="50"></meter>
+         </div>
+ 
+     </div>       
+  </div>
+
+   </div>
+   
+ 
+
+
+ <footer>
+    <form action="">
+    <h2 class="footer-heading">What is your favourite framework/liabary? </h2>
+    <label for="">Choose your framework/liabry:</label>
+    <select name="" id="">
+    <optgroup label="Framework">
+        <option value="express js">Express js</option>
+        <option value="next js">Next js</option>
+        <option value="svelte js">Svelte</option>
+    </optgroup>
+
+    <optgroup label="Liabary">
+        <option value="react js">React js</option>
+        <option value="vue js">Vue js</option>
+        <option value="jQuery">jQuery</option>
+        <option value="node js">Node js</option>
+    </optgroup>
+</select><br><br>
+<label for="reason">Tell us the reason:</label><br>
+<textarea name="" id="" cols="200" rows="10"></textarea><br><br>
+
+<button class="btn-form" id="submitButton">Submit</button>
+
+</form>
+
+ </footer>
+
+   
+    
+  
+<script>
+ function showMessage() {
+        alert('Submitted');
+    }
+
+    document.getElementById('submitButton').addEventListener('click', showMessage);
+
+
+</script>   
+   
+
+
+
+    
+   
+</body>
+</html>
